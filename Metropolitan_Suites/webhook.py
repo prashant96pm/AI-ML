@@ -5,7 +5,7 @@ import json
 
 client_msg = Client('TWILIO_ACCOUNT_SID', 'TWILIO_AUTH_TOKEN') #Enter your Twilio credentials here
 
-app = Flask(__name__)
+
 
 def phone_number():
     global ph_no
