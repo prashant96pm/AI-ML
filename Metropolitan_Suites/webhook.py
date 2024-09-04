@@ -19,7 +19,7 @@ def search_by_city():
     querystring = {"city":city,"state_code":"CA"}
     headers = {
         'x-rapidapi-host': "us-real-estate.p.rapidapi.com",
-        'x-rapidapi-key': "Rapid API key" #Enter your API Key here
+        
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
