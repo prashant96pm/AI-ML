@@ -13,7 +13,7 @@ def phone_number():
     print("Phone number : ", ph_no)
 
 def search_by_city():
-    global response_data
+    
     city=request.json['sessionInfo']['parameters']['city']
     url = "https://us-real-estate.p.rapidapi.com/v2/for-rent"
     querystring = {"city":city,"state_code":"CA"}
