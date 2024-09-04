@@ -17,7 +17,7 @@ def search_by_city():
     city=request.json['sessionInfo']['parameters']['city']
     url = "https://us-real-estate.p.rapidapi.com/v2/for-rent"
     querystring = {"city":city,"state_code":"CA"}
-    
+    headers = {
         'x-rapidapi-host': "us-real-estate.p.rapidapi.com",
         'x-rapidapi-key': "Rapid API key" #Enter your API Key here
         }
