@@ -24,7 +24,7 @@ def search_by_city():
 
     response = requests.request("GET", url, headers=headers, params=querystring)
     response_data = json.loads(response.text)
-    
+    response_data=response_data['data']['home_search']['results']
     print("Number of available apartments in " + city +" is ", len(response_data))
     
 def search_by_zipcode():
