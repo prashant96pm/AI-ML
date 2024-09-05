@@ -27,7 +27,7 @@ def search_by_city():
     response_data=response_data['data']['home_search']['results']
     print("Number of available apartments in " + city +" is ", len(response_data))
     
-def search_by_zipcode():
+
     global response_data
     zipcode=request.json['sessionInfo']['parameters']['zipcode']
     zipcode=str(zipcode)
