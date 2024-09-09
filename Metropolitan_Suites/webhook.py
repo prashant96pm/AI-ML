@@ -49,7 +49,7 @@ def no_of_bedrooms():
     global filtered_results
     filtered_results=[]
     count=0
-    bedrooms=request.json['sessionInfo']['parameters']['bedrooms']
+    
     bedrooms=str(bedrooms)
     print("Number of bedrooms ", bedrooms)
     for i in response_data:
