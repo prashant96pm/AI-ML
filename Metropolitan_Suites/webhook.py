@@ -68,7 +68,7 @@ def no_of_bedrooms():
     max_rent=max_rent['amount']
     print("Desired maximum rent ", max_rent)
     for i in list(filtered_results):
-        if(str(i['list_price_max'])<=str(max_rent)):
+        
             count=count+1
         else:
             filtered_results.remove(i)
