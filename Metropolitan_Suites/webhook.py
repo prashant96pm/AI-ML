@@ -60,7 +60,7 @@ def no_of_bedrooms():
                 count=count+1
                 filtered_results.append(i)
 
-    
+    print("Number of apartments with bedroom filter ", str(count))
     
 def max_rent():
     count=0
