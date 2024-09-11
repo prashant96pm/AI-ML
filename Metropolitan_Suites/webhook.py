@@ -64,7 +64,7 @@ def no_of_bedrooms():
     
 
     count=0
-    
+    max_rent=request.json['sessionInfo']['parameters']['max-rent']
     max_rent=max_rent['amount']
     print("Desired maximum rent ", max_rent)
     for i in list(filtered_results):
