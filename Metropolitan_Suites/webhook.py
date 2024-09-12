@@ -86,7 +86,7 @@ def no_of_bathrooms():
         elif(str(i['description']['baths_max'])==bathrooms):
             count=count+1
         else:
-            
+            filtered_results.remove(i)
 
     print("Number of apartments with bathroom filter ", str(count))
 
