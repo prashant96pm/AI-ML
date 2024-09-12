@@ -93,7 +93,7 @@ def no_of_bathrooms():
 def pets_policy():
     count=0
     pets=request.json['sessionInfo']['parameters']['pets']
-    pets=str(pets)
+    
     print("Pets ", pets)
     for i in list(filtered_results):
         if(pets=='yes'):
