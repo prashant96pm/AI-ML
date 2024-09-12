@@ -88,7 +88,7 @@ def no_of_bathrooms():
         else:
             filtered_results.remove(i)
 
-    print("Number of apartments with bathroom filter ", str(count))
+    
 
 def pets_policy():
     count=0
