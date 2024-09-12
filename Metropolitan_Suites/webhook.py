@@ -90,7 +90,7 @@ def no_of_bathrooms():
 
     print("Number of apartments with bathroom filter ", str(count))
 
-
+def pets_policy():
     count=0
     pets=request.json['sessionInfo']['parameters']['pets']
     pets=str(pets)
