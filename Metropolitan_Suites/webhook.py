@@ -101,7 +101,7 @@ def pets_policy():
                 count=count+1
             else:
                 filtered_results.remove(i)
-        
+        else:
             count=count+1
     print("Number of apartments with pets policy ", str(count))
 
