@@ -98,7 +98,7 @@ def pets_policy():
     for i in list(filtered_results):
         if(pets=='yes'):
             if('pets_allowed' in i['tags']):
-                
+                count=count+1
             else:
                 filtered_results.remove(i)
         else:
