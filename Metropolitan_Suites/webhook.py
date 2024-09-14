@@ -107,7 +107,7 @@ def pets_policy():
 
 def filter_by_no_of_bedrooms():
     #Filter out the API results based on the number of bedrooms 
-    
+    no_of_bedrooms()
     #If there are no available apartments give the option of starting over or changing the search criteria.
     count=len(filtered_results)
     if(count==0):
