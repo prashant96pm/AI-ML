@@ -117,7 +117,7 @@ def filter_by_no_of_bedrooms():
         text='Perfect! So far I have found '+ str(count) +' apartments for you. Would you like to narrow your search further by selecting your desired maximum rent? Please say "yes" or "no".'
     fulfillmentResponse = {
         'fulfillment_response': {
-            'messages': [{
+            
                 'text': {
                     'text':[text]
                 }
