@@ -109,7 +109,7 @@ def filter_by_no_of_bedrooms():
     #Filter out the API results based on the number of bedrooms 
     no_of_bedrooms()
     #If there are no available apartments give the option of starting over or changing the search criteria.
-    
+    count=len(filtered_results)
     if(count==0):
         text='Oops! Looks like there are no available apartments with the preferred requirements. You can either change the search criteria or you can start over. How would you like to continue?'
 
