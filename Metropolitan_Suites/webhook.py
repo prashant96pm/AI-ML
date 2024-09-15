@@ -119,7 +119,7 @@ def filter_by_no_of_bedrooms():
         'fulfillment_response': {
             'messages': [{
                 'text': {
-                    'text':[text]
+                    
                 }
             }]
         }
