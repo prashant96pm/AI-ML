@@ -114,7 +114,7 @@ def filter_by_no_of_bedrooms():
         text='Oops! Looks like there are no available apartments with the preferred requirements. You can either change the search criteria or you can start over. How would you like to continue?'
 
     else:
-        text='Perfect! So far I have found '+ str(count) +' apartments for you. Would you like to narrow your search further by selecting your desired maximum rent? Please say "yes" or "no".'
+        
     fulfillmentResponse = {
         'fulfillment_response': {
             'messages': [{
