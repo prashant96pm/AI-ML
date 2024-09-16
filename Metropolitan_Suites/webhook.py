@@ -139,7 +139,7 @@ def filter_by_max_rent():
         text = 'Perfect! So far I have found '+ str(count) +' apartments for you. Would you like to narrow your search further by selecting preffered number of bathrooms? Please answer yes or no.'
     fulfillmentResponse = {
         'fulfillment_response': {
-            'messages': [{
+            
                 'text': {
                     'text': [text]
                 }
