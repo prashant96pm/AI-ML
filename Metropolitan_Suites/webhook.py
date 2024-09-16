@@ -140,7 +140,7 @@ def filter_by_max_rent():
     fulfillmentResponse = {
         'fulfillment_response': {
             'messages': [{
-                'text': {
+                
                     'text': [text]
                 }
             }]
