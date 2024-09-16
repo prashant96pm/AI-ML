@@ -129,7 +129,7 @@ def filter_by_no_of_bedrooms():
 def filter_by_max_rent():
     #Filter out the API results based on the number of bedrooms and max rent
     no_of_bedrooms()
-    
+    max_rent()
     #If there are no available apartments give the option of starting over or changing the search criteria.
     count=len(filtered_results)
     if(count==0):
