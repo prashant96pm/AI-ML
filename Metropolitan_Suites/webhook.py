@@ -148,7 +148,7 @@ def filter_by_max_rent():
     }
     return fulfillmentResponse
 
-
+def filter_by_no_of_bathrooms():
     #Filter out the API results based on the number of bedrooms, max rent and bathrooms
     no_of_bedrooms()
     max_rent()
