@@ -135,7 +135,7 @@ def filter_by_max_rent():
     if(count==0):
         text= 'Oops! Looks like there are no available apartments with the preferred requirements. You can either change the search criteria or you can start over. How would you like to continue?'
 
-    else:
+    
         text = 'Perfect! So far I have found '+ str(count) +' apartments for you. Would you like to narrow your search further by selecting preffered number of bathrooms? Please answer yes or no.'
     fulfillmentResponse = {
         'fulfillment_response': {
