@@ -124,7 +124,7 @@ def filter_by_no_of_bedrooms():
             }]
         }
     }
-    
+    return fulfillmentResponse
 
 def filter_by_max_rent():
     #Filter out the API results based on the number of bedrooms and max rent
