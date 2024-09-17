@@ -35,7 +35,7 @@ def search_by_zipcode():
     querystring = {"location":zipcode,"state_code":"CA"}
     headers = {
         'x-rapidapi-host': "us-real-estate.p.rapidapi.com",
-        
+        'x-rapidapi-key': "Rapid API Key"  #Enter your API Key here
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
