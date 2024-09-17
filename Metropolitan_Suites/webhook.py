@@ -31,7 +31,7 @@ def search_by_zipcode():
     global response_data
     zipcode=request.json['sessionInfo']['parameters']['zipcode']
     zipcode=str(zipcode)
-    
+    url = "https://us-real-estate.p.rapidapi.com/v2/for-rent"
     querystring = {"location":zipcode,"state_code":"CA"}
     headers = {
         'x-rapidapi-host': "us-real-estate.p.rapidapi.com",
