@@ -47,7 +47,7 @@ def search_by_zipcode():
     
 def no_of_bedrooms():
     global filtered_results
-    
+    filtered_results=[]
     count=0
     bedrooms=request.json['sessionInfo']['parameters']['bedrooms']
     bedrooms=str(bedrooms)
