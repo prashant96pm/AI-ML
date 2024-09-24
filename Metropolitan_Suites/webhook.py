@@ -57,7 +57,7 @@ def no_of_bedrooms():
             count=count+1
             filtered_results.append(i)
         elif(str(i['description']['beds_max'])==bedrooms):
-                count=count+1
+                
                 filtered_results.append(i)
 
     print("Number of apartments with bedroom filter ", str(count))
