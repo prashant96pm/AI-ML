@@ -63,7 +63,7 @@ def no_of_bedrooms():
     print("Number of apartments with bedroom filter ", str(count))
     
 
-    count=0
+    
     max_rent=request.json['sessionInfo']['parameters']['max-rent']
     max_rent=max_rent['amount']
     print("Desired maximum rent ", max_rent)
