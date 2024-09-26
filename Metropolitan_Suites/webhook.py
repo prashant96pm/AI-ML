@@ -163,7 +163,7 @@ def filter_by_no_of_bathrooms():
     fulfillmentResponse = {
         'fulfillment_response': {
             'messages': [{
-                
+                'text': {
                     'text': [text]
                 }
             }]
