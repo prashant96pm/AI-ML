@@ -176,7 +176,7 @@ def filter_by_pets_policy():
     no_of_bedrooms()
     max_rent()
     no_of_bathrooms()
-    pets_policy()
+    
     
 def send_sms():
     #If there are no available apartments give the option of starting over or changing the search criteria.
