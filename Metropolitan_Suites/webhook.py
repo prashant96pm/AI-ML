@@ -178,7 +178,7 @@ def filter_by_pets_policy():
     no_of_bathrooms()
     pets_policy()
     
-def send_sms():
+
     #If there are no available apartments give the option of starting over or changing the search criteria.
     if (len(filtered_results)==0):
         text='Oops! Looks like there are no available apartments with the preferred requirements. You can either change the search criteria or you can start over. How would you like to continue?'
