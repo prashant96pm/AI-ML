@@ -175,7 +175,7 @@ def filter_by_pets_policy():
     #Filter out the API results based on the number of bedrooms, max rent, bathrooms and pets policy
     no_of_bedrooms()
     max_rent()
-    
+    no_of_bathrooms()
     pets_policy()
     
 def send_sms():
