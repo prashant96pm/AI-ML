@@ -183,7 +183,7 @@ def send_sms():
     if (len(filtered_results)==0):
         text='Oops! Looks like there are no available apartments with the preferred requirements. You can either change the search criteria or you can start over. How would you like to continue?'
 
-    
+    else:
         #send text mesage with available apartments
         j=0
         message="Hello!\nI am glad to let you know that I found some prefect apartments for you.\n"
