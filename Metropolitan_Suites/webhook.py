@@ -186,7 +186,7 @@ def send_sms():
     else:
         #send text mesage with available apartments
         j=0
-        
+        message="Hello!\nI am glad to let you know that I found some prefect apartments for you.\n"
         for i in filtered_results:
             j=j+1
             message=message +'\n'+ (i['advertisers'][1]['office']['name'])  +'\nLeasing ID  ' + str(i['listing_id']) + '\nSquare Footage  ' + str(i['description']['sqft_max'])+ '\nMonthly Rent  '+str(i['list_price_max'])+'\nBedroom  '+str(i['description']['beds_max'])+'\nContact Number ' + str(i['advertisers'][1]['office']['phones'][0]['number']) +'.\n'
