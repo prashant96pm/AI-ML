@@ -185,7 +185,7 @@ def send_sms():
 
     else:
         #send text mesage with available apartments
-        
+        j=0
         message="Hello!\nI am glad to let you know that I found some prefect apartments for you.\n"
         for i in filtered_results:
             j=j+1
