@@ -247,7 +247,7 @@ def webhook():
         resp=filter_by_no_of_bathrooms()
         return jsonify(resp)
     
-    if(tag=='filter-by-pets-policy'):
+    
         filter_by_pets_policy()   
         
     if(tag=='send-sms'):
