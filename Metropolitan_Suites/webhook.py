@@ -244,7 +244,7 @@ def webhook():
         return jsonify(resp)
     
     if(tag=='filter-by-no-of-bathrooms'):
-        resp=filter_by_no_of_bathrooms()
+        
         return jsonify(resp)
     
     if(tag=='filter-by-pets-policy'):
