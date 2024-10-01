@@ -254,7 +254,7 @@ def webhook():
         resp=send_sms()
         return jsonify(resp)
 
-
+@app.route('/webhook', methods=['GET', 'POST'])
 
 def index():
     print('index')
