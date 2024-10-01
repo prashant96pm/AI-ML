@@ -256,7 +256,7 @@ def webhook():
 
 @app.route('/webhook', methods=['GET', 'POST'])
 
-
+def index():
     print('index')
     return webhook()
         
