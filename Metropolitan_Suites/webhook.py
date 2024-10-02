@@ -257,7 +257,7 @@ def webhook():
 @app.route('/webhook', methods=['GET', 'POST'])
 
 def index():
-    
+    print('index')
     return webhook()
         
 if __name__ == "__main__":
