@@ -222,7 +222,7 @@ def webhook():
     session_id = request.json['sessionInfo']['session'].split('/')[-1] 
     print("session_id : "+ session_id)
     tag = request.json['fulfillmentInfo']['tag']
-    
+    print(request.json['sessionInfo']['parameters'])
     print("tag:"+ tag)
     
     #Match and call the corresponding tag
