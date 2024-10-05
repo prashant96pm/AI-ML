@@ -232,7 +232,7 @@ def webhook():
     if(tag=='search-by-city'):
         search_by_city()
         
-    
+    if(tag=='search-by-zipcode'):
         search_by_zipcode()
         
     if(tag=='filter-by-no-of-bedrooms'):
