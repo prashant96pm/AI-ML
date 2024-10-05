@@ -227,7 +227,7 @@ def webhook():
     
     #Match and call the corresponding tag
     if(tag=='phone_number'):
-        
+        phone_number()
         
     if(tag=='search-by-city'):
         search_by_city()
