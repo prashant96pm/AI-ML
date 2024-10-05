@@ -229,7 +229,7 @@ def webhook():
     if(tag=='phone_number'):
         phone_number()
         
-    if(tag=='search-by-city'):
+    
         search_by_city()
         
     if(tag=='search-by-zipcode'):
