@@ -226,7 +226,7 @@ def webhook():
     print("tag:"+ tag)
     
     #Match and call the corresponding tag
-    if(tag=='phone_number'):
+    
         phone_number()
         
     if(tag=='search-by-city'):
