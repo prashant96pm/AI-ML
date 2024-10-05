@@ -230,7 +230,7 @@ def webhook():
         phone_number()
         
     if(tag=='search-by-city'):
-        search_by_city()
+        
         
     if(tag=='search-by-zipcode'):
         search_by_zipcode()
