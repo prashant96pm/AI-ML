@@ -237,7 +237,7 @@ def webhook():
         
     if(tag=='filter-by-no-of-bedrooms'):
         resp=filter_by_no_of_bedrooms()
-        return jsonify(resp)
+        
     
     if(tag=='filter-by-max-rent'):
         resp=filter_by_max_rent()
