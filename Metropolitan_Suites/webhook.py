@@ -252,7 +252,7 @@ def webhook():
         
     if(tag=='send-sms'):
         resp=send_sms()
-        return jsonify(resp)
+        
 
 @app.route('/webhook', methods=['GET', 'POST'])
 
