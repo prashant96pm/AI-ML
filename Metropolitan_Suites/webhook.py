@@ -250,7 +250,7 @@ def webhook():
     if(tag=='filter-by-pets-policy'):
         filter_by_pets_policy()   
         
-    if(tag=='send-sms'):
+    
         resp=send_sms()
         return jsonify(resp)
 
