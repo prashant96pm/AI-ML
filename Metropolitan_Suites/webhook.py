@@ -10,7 +10,7 @@ app = Flask(__name__)
 def phone_number():
     global ph_no
     ph_no=request.json['sessionInfo']['parameters']['phone-number']
-    
+    print("Phone number : ", ph_no)
 
 def search_by_city():
     global response_data
