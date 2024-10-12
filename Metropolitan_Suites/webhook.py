@@ -28,7 +28,7 @@ def search_by_city():
     print("Number of available apartments in " + city +" is ", len(response_data))
     
 def search_by_zipcode():
-    global response_data
+    
     zipcode=request.json['sessionInfo']['parameters']['zipcode']
     zipcode=str(zipcode)
     url = "https://us-real-estate.p.rapidapi.com/v2/for-rent"
