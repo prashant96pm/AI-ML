@@ -55,7 +55,7 @@ def no_of_bedrooms():
     for i in response_data:
         if(bedrooms=='any'):
             count=count+1
-            filtered_results.append(i)
+            
         elif(str(i['description']['beds_max'])==bedrooms):
                 count=count+1
                 filtered_results.append(i)
