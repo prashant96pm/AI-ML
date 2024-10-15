@@ -52,7 +52,7 @@ def no_of_bedrooms():
     bedrooms=request.json['sessionInfo']['parameters']['bedrooms']
     bedrooms=str(bedrooms)
     print("Number of bedrooms ", bedrooms)
-    
+    for i in response_data:
         if(bedrooms=='any'):
             count=count+1
             filtered_results.append(i)
