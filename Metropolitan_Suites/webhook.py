@@ -71,7 +71,7 @@ def no_of_bedrooms():
         if(str(i['list_price_max'])<=str(max_rent)):
             count=count+1
         else:
-            filtered_results.remove(i)
+            
 
     print("Number of apartments with rent filter  ",str(count))
     
