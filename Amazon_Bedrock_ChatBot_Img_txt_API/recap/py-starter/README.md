@@ -10,7 +10,7 @@ process also creates a virtualenv within this project, stored under the `.venv`
 directory.  To create the virtualenv it assumes that there is a `python3`
 (or `python` for Windows) executable in your path with access to the `venv`
 package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+
 
 To manually create a virtualenv on MacOS and Linux:
 
