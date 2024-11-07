@@ -8,7 +8,7 @@ AWS_REGION_BEDROCK = "us-west-2"
 S3_BUCKET = os.environ.get("BUCKET_NAME")
 
 client = boto3.client(service_name="bedrock-runtime", region_name=AWS_REGION_BEDROCK)
-s3_client = boto3.client('s3')
+
 
 
 def handler(event, context):
