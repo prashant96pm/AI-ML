@@ -1,7 +1,7 @@
 import boto3
 import json
 import base64
-from time import time
+
 import os
 
 AWS_REGION_BEDROCK = "us-west-2"
