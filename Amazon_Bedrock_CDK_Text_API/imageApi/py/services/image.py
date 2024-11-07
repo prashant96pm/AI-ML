@@ -1,6 +1,6 @@
 import boto3
 import json
-import base64
+
 from time import time
 import os
 
