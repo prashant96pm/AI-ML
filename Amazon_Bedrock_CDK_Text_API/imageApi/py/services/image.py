@@ -19,7 +19,7 @@ def handler(event, context):
         response = client.invoke_model(
             body=titan_config, 
             modelId="amazon.titan-image-generator-v1", 
-            
+            accept="application/json", 
             contentType="application/json"
         )
         response_body = json.loads(response.get("body").read())
