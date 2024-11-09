@@ -33,7 +33,7 @@ def handler(event, context):
 
 
 def save_image_to_s3(base64_image: str):
-    image_file = base64.b64decode(base64_image)
+    
     timestamp = int(time())
     image_name = str(timestamp) + '.jpg'
 
