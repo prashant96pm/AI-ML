@@ -61,7 +61,7 @@ def get_titan_config(description: str):
                 "numberOfImages": 1,
                 "height": 512,
                 "width": 512,
-                
+                "cfgScale": 8.0,
             },
         }
     )
