@@ -54,7 +54,7 @@ def get_titan_config(description: str):
     return json.dumps(
         {
             "taskType": "TEXT_IMAGE",
-            
+            "textToImageParams": {
                 "text": description,
             },
             "imageGenerationConfig": {
