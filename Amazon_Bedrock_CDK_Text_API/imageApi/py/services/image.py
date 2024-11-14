@@ -11,7 +11,7 @@ client = boto3.client(service_name="bedrock-runtime", region_name=AWS_REGION_BED
 s3_client = boto3.client('s3')
 
 
-
+def handler(event, context):
     body = json.loads(event["body"])
     description = body.get("description")
     if description:
