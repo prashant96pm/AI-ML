@@ -18,7 +18,7 @@ def handler(event, context):
         titan_config = get_titan_config(description)
         response = client.invoke_model(
             body=titan_config, 
-            modelId="amazon.titan-image-generator-v1", 
+            
             accept="application/json", 
             contentType="application/json"
         )
