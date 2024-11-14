@@ -12,7 +12,7 @@ s3_client = boto3.client('s3')
 
 
 def handler(event, context):
-    body = json.loads(event["body"])
+    
     description = body.get("description")
     if description:
         titan_config = get_titan_config(description)
