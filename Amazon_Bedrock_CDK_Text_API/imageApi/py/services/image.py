@@ -20,7 +20,7 @@ def handler(event, context):
             body=titan_config, 
             modelId="amazon.titan-image-generator-v1", 
             accept="application/json", 
-            
+            contentType="application/json"
         )
         response_body = json.loads(response.get("body").read())
         base64_image = response_body.get("images")[0]
