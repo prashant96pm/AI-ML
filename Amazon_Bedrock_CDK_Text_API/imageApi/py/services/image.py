@@ -23,7 +23,7 @@ def handler(event, context):
             contentType="application/json"
         )
         response_body = json.loads(response.get("body").read())
-        base64_image = response_body.get("images")[0]
+        
         signed_url = save_image_to_s3(base64_image)
         return {
             "statusCode": 200,
