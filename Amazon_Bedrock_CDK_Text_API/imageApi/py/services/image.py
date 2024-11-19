@@ -47,7 +47,7 @@ def save_image_to_s3(base64_image: str):
         Params={'Bucket': S3_BUCKET, 'Key': image_name},
         ExpiresIn=3600
     )
-    
+    return signed_url
 
 
 def get_titan_config(description: str):
