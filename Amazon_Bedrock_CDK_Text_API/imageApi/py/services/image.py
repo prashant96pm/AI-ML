@@ -37,7 +37,7 @@ def save_image_to_s3(base64_image: str):
     timestamp = int(time())
     image_name = str(timestamp) + '.jpg'
 
-    
+    s3_client.put_object(
         Bucket=S3_BUCKET,
         Key=image_name,
         Body=image_file,
