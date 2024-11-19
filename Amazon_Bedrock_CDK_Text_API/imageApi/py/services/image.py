@@ -43,7 +43,7 @@ def save_image_to_s3(base64_image: str):
         Body=image_file,
     )
     signed_url = s3_client.generate_presigned_url(
-        'get_object',
+        
         Params={'Bucket': S3_BUCKET, 'Key': image_name},
         ExpiresIn=3600
     )
