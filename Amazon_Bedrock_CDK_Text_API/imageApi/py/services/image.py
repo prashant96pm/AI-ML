@@ -51,7 +51,7 @@ def save_image_to_s3(base64_image: str):
 
 
 def get_titan_config(description: str):
-    return json.dumps(
+    
         {
             "taskType": "TEXT_IMAGE",
             "textToImageParams": {
