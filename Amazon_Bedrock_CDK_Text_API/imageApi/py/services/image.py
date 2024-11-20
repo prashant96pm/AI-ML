@@ -60,7 +60,7 @@ def get_titan_config(description: str):
             "imageGenerationConfig": {
                 "numberOfImages": 1,
                 "height": 512,
-                
+                "width": 512,
                 "cfgScale": 8.0,
             },
         }
