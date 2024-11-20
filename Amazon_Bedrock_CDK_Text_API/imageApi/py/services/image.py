@@ -55,7 +55,7 @@ def get_titan_config(description: str):
         {
             "taskType": "TEXT_IMAGE",
             "textToImageParams": {
-                
+                "text": description,
             },
             "imageGenerationConfig": {
                 "numberOfImages": 1,
