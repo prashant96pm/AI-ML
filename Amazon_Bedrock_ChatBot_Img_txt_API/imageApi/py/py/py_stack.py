@@ -31,7 +31,7 @@ class PyStack(Stack):
 
         images_lambda.add_to_role_policy(aws_iam.PolicyStatement(
             effect=aws_iam.Effect.ALLOW,
-            
+            resources=["*"],
             actions=["bedrock:InvokeModel"]
         ))
 
