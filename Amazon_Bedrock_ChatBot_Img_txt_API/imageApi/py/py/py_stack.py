@@ -17,7 +17,7 @@ class PyStack(Stack):
 
         images_lambda = aws_lambda.Function(
             self,
-            
+            "Py-ImageLambda",
             runtime=aws_lambda.Runtime.PYTHON_3_11,
             code=aws_lambda.Code.from_asset("services"),
             handler="image.handler",
