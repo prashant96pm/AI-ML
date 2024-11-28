@@ -15,7 +15,7 @@ class PyStack(Stack):
 
         images_bucket = aws_s3.Bucket(self, 'PY-ImagesPyBucket')
 
-        
+        images_lambda = aws_lambda.Function(
             self,
             "Py-ImageLambda",
             runtime=aws_lambda.Runtime.PYTHON_3_11,
