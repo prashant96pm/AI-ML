@@ -6,7 +6,7 @@ from aws_cdk import (
     aws_s3,
     aws_iam
 )
-
+from constructs import Construct
 
 class PyStack(Stack):
 
