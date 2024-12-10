@@ -22,7 +22,7 @@ class PyStack(Stack):
             code=aws_lambda.Code.from_asset("services"),
             handler="image.handler",
             timeout=Duration.seconds(30),
-            environment={
+            
                 "BUCKET_NAME": images_bucket.bucket_name
             }
         )
