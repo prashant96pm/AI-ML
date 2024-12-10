@@ -19,7 +19,7 @@ class PyStack(Stack):
             self,
             "Py-ImageLambda",
             runtime=aws_lambda.Runtime.PYTHON_3_11,
-            code=aws_lambda.Code.from_asset("services"),
+            
             handler="image.handler",
             timeout=Duration.seconds(30),
             environment={
