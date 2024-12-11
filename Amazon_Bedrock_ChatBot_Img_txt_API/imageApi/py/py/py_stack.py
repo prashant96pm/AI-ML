@@ -35,7 +35,7 @@ class PyStack(Stack):
             actions=["bedrock:InvokeModel"]
         ))
 
-        
+        api = aws_apigateway.RestApi(self, "Py-ImageApi")
 
         image_resource = api.root.add_resource("image")
         image_integration = aws_apigateway.LambdaIntegration(images_lambda)
