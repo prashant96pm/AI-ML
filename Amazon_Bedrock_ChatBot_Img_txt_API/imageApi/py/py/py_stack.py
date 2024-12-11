@@ -38,7 +38,7 @@ class PyStack(Stack):
         api = aws_apigateway.RestApi(self, "Py-ImageApi")
 
         image_resource = api.root.add_resource("image")
-        image_integration = aws_apigateway.LambdaIntegration(images_lambda)
+        
         image_resource.add_method("POST", image_integration)
 
 
