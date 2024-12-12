@@ -7,7 +7,7 @@ from py.py_stack import PyStack
 # resource in py/py_stack.py
 def test_sqs_queue_created():
     app = core.App()
-    
+    stack = PyStack(app, "py")
     template = assertions.Template.from_stack(stack)
 
 #     template.has_resource_properties("AWS::SQS::Queue", {
