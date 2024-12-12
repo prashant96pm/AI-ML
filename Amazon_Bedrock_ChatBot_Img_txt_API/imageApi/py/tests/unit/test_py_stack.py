@@ -12,4 +12,4 @@ def test_sqs_queue_created():
 
 #     template.has_resource_properties("AWS::SQS::Queue", {
 #         "VisibilityTimeout": 300
-
+#     })
