@@ -6,7 +6,7 @@ from py.py_stack import PyStack
 # example tests. To run these tests, uncomment this file along with the example
 # resource in py/py_stack.py
 def test_sqs_queue_created():
-    
+    app = core.App()
     stack = PyStack(app, "py")
     template = assertions.Template.from_stack(stack)
 
