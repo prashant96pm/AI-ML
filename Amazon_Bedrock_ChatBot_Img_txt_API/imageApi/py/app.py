@@ -10,4 +10,4 @@ app = cdk.App()
 PyStack(app, "PyImageApiStack",
    )
 
-
+app.synth()
