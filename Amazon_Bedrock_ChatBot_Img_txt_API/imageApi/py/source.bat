@@ -1,4 +1,4 @@
-@echo off
+
 
 rem The sole purpose of this script is to make the command
 rem
