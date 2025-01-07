@@ -1,7 +1,7 @@
 @echo off
 
 rem The sole purpose of this script is to make the command
-
+rem
 rem     source .venv/bin/activate
 rem
 rem (which activates a Python virtualenv on Linux or Mac OS X) work on Windows.
