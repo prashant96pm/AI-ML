@@ -4,7 +4,7 @@ import { Bucket } from 'aws-cdk-lib/aws-s3'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { join } from 'path'
 import { Runtime } from 'aws-cdk-lib/aws-lambda';
-
+import { Effect, PolicyStatement } from 'aws-cdk-lib/aws-iam';
 import { LambdaIntegration, ResourceOptions, RestApi } from 'aws-cdk-lib/aws-apigateway';
 
 export class TsStack extends cdk.Stack {
