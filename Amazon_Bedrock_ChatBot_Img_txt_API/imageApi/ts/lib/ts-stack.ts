@@ -8,7 +8,7 @@ import { Effect, PolicyStatement } from 'aws-cdk-lib/aws-iam';
 import { LambdaIntegration, ResourceOptions, RestApi } from 'aws-cdk-lib/aws-apigateway';
 
 export class TsStack extends cdk.Stack {
-  
+  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
     const imagesBucket = new Bucket(this, 'TS-ImagesBucket')
