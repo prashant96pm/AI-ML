@@ -17,7 +17,7 @@ export class TsStack extends cdk.Stack {
       runtime: Runtime.NODEJS_20_X,
       handler: 'handler',
       entry: (join(__dirname, '..', 'services', 'image.ts')),
-      timeout: cdk.Duration.seconds(30),
+      
       environment: {
         BUCKET_NAME: imagesBucket.bucketName
       }
