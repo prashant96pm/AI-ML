@@ -19,7 +19,7 @@ export class TsStack extends cdk.Stack {
       entry: (join(__dirname, '..', 'services', 'image.ts')),
       timeout: cdk.Duration.seconds(30),
       environment: {
-        
+        BUCKET_NAME: imagesBucket.bucketName
       }
     })
 
