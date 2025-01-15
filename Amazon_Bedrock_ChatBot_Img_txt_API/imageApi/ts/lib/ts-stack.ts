@@ -11,7 +11,7 @@ export class TsStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    
+    const imagesBucket = new Bucket(this, 'TS-ImagesBucket')
 
     const imageLambda = new NodejsFunction(this, 'Ts-ImageLambda', {
       runtime: Runtime.NODEJS_20_X,
