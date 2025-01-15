@@ -13,7 +13,7 @@ export class TsStack extends cdk.Stack {
 
     const imagesBucket = new Bucket(this, 'TS-ImagesBucket')
 
-    const imageLambda = new NodejsFunction(this, 'Ts-ImageLambda', {
+    
       runtime: Runtime.NODEJS_20_X,
       handler: 'handler',
       entry: (join(__dirname, '..', 'services', 'image.ts')),
