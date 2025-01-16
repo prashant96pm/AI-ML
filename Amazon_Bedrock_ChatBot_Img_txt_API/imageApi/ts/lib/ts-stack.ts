@@ -21,7 +21,7 @@ export class TsStack extends cdk.Stack {
       environment: {
         BUCKET_NAME: imagesBucket.bucketName
       }
-    })
+    
 
     imagesBucket.grantReadWrite(imageLambda)
 
