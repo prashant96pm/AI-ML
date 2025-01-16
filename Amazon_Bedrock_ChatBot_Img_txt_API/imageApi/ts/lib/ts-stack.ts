@@ -20,7 +20,7 @@ export class TsStack extends cdk.Stack {
       timeout: cdk.Duration.seconds(30),
       environment: {
         BUCKET_NAME: imagesBucket.bucketName
-      }
+      
     })
 
     imagesBucket.grantReadWrite(imageLambda)
