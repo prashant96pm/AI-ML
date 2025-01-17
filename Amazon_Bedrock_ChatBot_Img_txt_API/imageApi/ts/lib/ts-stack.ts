@@ -25,7 +25,7 @@ export class TsStack extends cdk.Stack {
 
     imagesBucket.grantReadWrite(imageLambda)
 
-    
+    imageLambda.addToRolePolicy(new PolicyStatement({
       effect: Effect.ALLOW,
       resources: ['*'],
       actions: ['bedrock:InvokeModel']
