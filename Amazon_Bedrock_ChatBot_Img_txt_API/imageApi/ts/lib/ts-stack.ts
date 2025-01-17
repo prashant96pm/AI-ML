@@ -27,7 +27,7 @@ export class TsStack extends cdk.Stack {
 
     imageLambda.addToRolePolicy(new PolicyStatement({
       effect: Effect.ALLOW,
-      
+      resources: ['*'],
       actions: ['bedrock:InvokeModel']
     }))
 
