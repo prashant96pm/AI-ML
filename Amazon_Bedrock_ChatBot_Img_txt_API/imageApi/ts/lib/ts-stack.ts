@@ -31,7 +31,7 @@ export class TsStack extends cdk.Stack {
       actions: ['bedrock:InvokeModel']
     }))
 
-    
+    const api = new RestApi(this, 'TS-ImageApi');
 
     const imageResource = api.root.addResource('image')
 
