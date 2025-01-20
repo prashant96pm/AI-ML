@@ -37,7 +37,7 @@ export class TsStack extends cdk.Stack {
 
     const imageLambdaIntegration = new LambdaIntegration(imageLambda)
 
-    
+    imageResource.addMethod('POST', imageLambdaIntegration)
 
   }
 }
