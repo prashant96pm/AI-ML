@@ -39,5 +39,5 @@ export class TsStack extends cdk.Stack {
 
     imageResource.addMethod('POST', imageLambdaIntegration)
 
-  }
+  
 }
