@@ -11,7 +11,7 @@ my_data = [
     "Don likes to eat pasta.",
 ]
 
-
+question = "What does Don like to eat?"
 
 AWS_REGION = "us-west-2"
 
