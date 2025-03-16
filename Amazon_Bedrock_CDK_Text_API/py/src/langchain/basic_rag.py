@@ -24,7 +24,7 @@ bedrock_embeddings = BedrockEmbeddings(
 )
 
 # create vector store
-vector_store = FAISS.from_texts(my_data, bedrock_embeddings)
+
 
 # create retriever
 retriever = vector_store.as_retriever(
