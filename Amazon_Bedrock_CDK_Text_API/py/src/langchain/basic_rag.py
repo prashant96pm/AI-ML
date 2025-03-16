@@ -13,7 +13,7 @@ my_data = [
 
 question = "What does Don like to eat?"
 
-AWS_REGION = "us-west-2"
+
 
 bedrock = boto3.client(service_name="bedrock-runtime", region_name=AWS_REGION)
 
