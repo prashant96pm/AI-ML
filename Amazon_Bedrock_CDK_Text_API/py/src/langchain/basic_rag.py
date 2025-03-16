@@ -17,7 +17,7 @@ AWS_REGION = "us-west-2"
 
 bedrock = boto3.client(service_name="bedrock-runtime", region_name=AWS_REGION)
 
-
+model = Bedrock(model_id="amazon.titan-text-express-v1", client=bedrock)
 
 bedrock_embeddings = BedrockEmbeddings(
     model_id="amazon.titan-embed-text-v1", client=bedrock
