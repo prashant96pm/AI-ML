@@ -18,7 +18,7 @@
     "noFallthroughCasesInSwitch": false,
     "inlineSourceMap": true,
     "inlineSources": true,
-    
+    "experimentalDecorators": true,
     "typeRoots": [
       "./node_modules/@types"
     ]
